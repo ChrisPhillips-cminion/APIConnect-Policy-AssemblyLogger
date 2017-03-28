@@ -11,7 +11,7 @@ before_install:
 - chmod 755 ./build.sh
 script:
 - ./build.sh $policyDir $policyName
-- find .
+
 deploy:
   provider: releases
   api_key:
